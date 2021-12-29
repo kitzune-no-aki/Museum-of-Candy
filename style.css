@@ -5,6 +5,27 @@ body{
     margin: 0;
     padding: 0;
 }
+
+#mainnav{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#mainnav .navbar-brand{
+    color: #780116;
+    font-size: 2rem;
+}
+
+#mainnav .nav-item{
+    color: #f5ebe0;
+    font-size: 1.5rem;
+}
+
+#mainnav .nav-item :hover{
+    color: #780116;
+}
+
 i{
     color: #780116;
 }
@@ -14,6 +35,15 @@ img{
 h1{
     text-transform: uppercase;
 }
+
+h2{
+    text-transform: uppercase;
+}
+
+p{
+  line-height: 2;
+}
+
 #bundle-h1{
     margin-top: 10em;
     margin-bottom: 5em;
@@ -24,6 +54,11 @@ svg{
 }
 .container{
     margin-top: 5em;
+}
+
+.mainnav.scrolled{
+    background-color: #f5ebe0;
+    transition: background-color 1s;
 }
 
 
